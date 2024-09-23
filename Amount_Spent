@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+     int x,y,z;
+    printf("Enter the amount you spend for petrol on wednesday :");
+    scanf("%d",&x);
+    printf("Enter the amount you spend for petrol on thursday  :");
+    scanf("%d",&y);
+    z=2*x+y;
+    printf("***************************************************************");
+    printf("\n The amount you have spended for petrol on wednesday is %d",x);
+    printf("\n The amount you have spended for petrol on thursday is %d",y);
+    printf("\n The total amount you have spended for petrol is %d",z);
+
+    return 0;
+}
