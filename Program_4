@@ -1,0 +1,22 @@
+//Traffic Signal classification
+#include <stdio.h>
+void main()
+{
+    char r,y,g;
+    
+    printf("Enter r,y or g signal :");
+    scanf("%c",&r);
+    
+    switch(r)
+    {
+         case 'r':
+         printf("Stop...");
+         break;
+          case 'y':
+         printf("Ready...");
+         break;
+          case 'g':
+         printf("Go...");
+         break;
+    }
+}
