@@ -1,3 +1,4 @@
+// To chech the amount spended for petrol
 #include <stdio.h>
 
 int main()
