@@ -1,0 +1,21 @@
+//Check Pass or Fail
+#include <stdio.h>
+
+int main()
+{
+     int mark;
+    printf("Enter your score :");
+    scanf("%d",&mark);
+    
+    if(mark>=40)
+    {
+         printf("You are passed");
+         
+    }
+    else
+    {
+         printf("You are failed");
+    }
+    
+    return 0;
+}
