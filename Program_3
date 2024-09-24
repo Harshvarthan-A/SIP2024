@@ -1,4 +1,4 @@
-//Check Pass or Fail
+// Program for checking Pass or Fail
 #include <stdio.h>
 
 int main()
