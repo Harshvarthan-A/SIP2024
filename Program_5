@@ -1,0 +1,38 @@
+//program for getting two numbers and the operator from the user for the solution  
+#include <stdio.h>
+
+int main()
+{
+     int a,b,c;
+     char op;
+     
+    printf("Enter a number :");
+    scanf("%d",&a);
+    printf("Enter a number :");
+    scanf("%d",&b);
+    printf("Enter the operator :");
+    scanf(" %c",&op);
+    
+    switch(op)
+    {
+        case'+':
+         c=a+b;
+         printf("Sum of the number is %d",c);
+         break;
+         
+        case'-':
+         c=a-b;
+         printf("Difference of the number is %d",c);
+         break;
+         
+        case'*':
+         c=a*b;
+         printf("Product of the number is %d",c);
+    
+        case'/':
+         c=a/b;
+         printf("Divisible of the number is %d",c);
+    }
+
+    return 0;
+}
