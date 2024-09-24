@@ -1,4 +1,4 @@
-//program for giving discount according to age
+// Program for giving discount according to age
 #include <stdio.h>
 
 int main()
