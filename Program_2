@@ -1,4 +1,4 @@
-//Grade Evaluation
+// Program for Grade Evaluation
 #include <stdio.h>
 
 int main()
