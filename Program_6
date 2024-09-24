@@ -1,0 +1,26 @@
+//program for giving discount according to age
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("Enter your age :");
+    scanf("%d",&a);
+    
+    if(a<18)
+    {
+         printf("You have 20 persent discount");
+    }
+    
+     if(a>=18&&a<60)
+    {
+         printf("You have 10 persent discount");
+    }
+    
+     if(a>60)
+    {
+         printf("You have 30 persent discount");
+    }
+    
+    return 0;
+}
