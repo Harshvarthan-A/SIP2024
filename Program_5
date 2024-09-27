@@ -6,32 +6,34 @@ int main()
      int a,b,c;
      char op;
      
-    printf("Enter a number :");
+    printf("\nEnter a number :");
     scanf("%d",&a);
-    printf("Enter a number :");
+    printf("\nEnter a number :");
     scanf("%d",&b);
-    printf("Enter the operator :");
+    printf("\nEnter the operator :");
     scanf(" %c",&op);
     
     switch(op)
     {
         case'+':
          c=a+b;
-         printf("Sum of the number is %d",c);
+         printf("\nSum of the number is %d",c);
          break;
          
         case'-':
          c=a-b;
-         printf("Difference of the number is %d",c);
+         printf("\nDifference of the number is %d",c);
          break;
          
         case'*':
          c=a*b;
-         printf("Product of the number is %d",c);
+         printf("\nProduct of the number is %d",c);
+         break;
     
         case'/':
          c=a/b;
-         printf("Divisible of the number is %d",c);
+         printf("\nDivisible of the number is %d",c);
+         break;
     }
 
     return 0;
