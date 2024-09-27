@@ -34,6 +34,11 @@ int main()
          c=a/b;
          printf("\nDivisible of the number is %d",c);
          break;
+         
+        case'%':
+         c=a%b;
+         printf("\nModulus of the number is %d",c);
+         break;
     }
 
     return 0;
