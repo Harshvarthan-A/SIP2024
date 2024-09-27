@@ -5,24 +5,24 @@ int main()
 {
      int a,b,c;
      
-    printf("Enter a number :");
+    printf("\nEnter a number :");
     scanf("%d",&a);
-    printf("Enter a number :");
+    printf("\nEnter a number :");
     scanf("%d",&b);
-    printf("Enter a number :");
+    printf("\nEnter a number :");
     scanf("%d",&c);
     
     if(a>b && a>c)
     {
-         printf("%d is biggest number",a);
+         printf("\n%d is biggest number",a);
     }
     else if(b>a && b>c)
     {
-         printf("%d is biggest number",b);
+         printf("\n%d is biggest number",b);
     }
     else
     {
-         printf("%d is biggest number",c);
+         printf("\n%d is biggest number",c);
     }
 
     return 0;
